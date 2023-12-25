@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&family=Waiting+for+the+Sunrise&display=swap');
+
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0
+}
+
+.meme-generator {
+  font-family: 'Waiting for the Sunrise', cursive;
+
+    text-align: center;
+    background-image: linear-gradient(#000e2e, #004f5a);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+  }
+  
+  .meme-generator img {
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 500px;
+    border-radius: 30px;
+    padding: 20px;
+    
+  }
+  
+  .meme-generator .generate-meme-btn {
+    padding: 8px 40px;
+    margin-bottom: 50px;
+    border: none;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #080000;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    font-size: large;
+    font-family: 'Waiting for the Sunrise', cursive;
+    
+
+
+  }
+  
+  .meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid #222;
+    border-right: 8px solid #222;
+    letter-spacing: 3px;
+  }
+  
+  .meme-generator .meme-author {
+    padding: 10px;
+    font-size:x-large;
+    font-family: 'Waiting for the Sunrise', cursive;
+  }
+
+  .meme-title {
+    font-family: 'Waiting for the Sunrise', cursive;
+
+    color: #fff;
+  }
+
+
+@media screen and (max-width: 600px)
+{ 
+  h1{
+  font-size: 56px;
+  line-height: 50px;
+}
+.meme-generator img{
+  width: 80%;
+  height: 80%;
+  
+}
+.meme-generator {
+  background-image: linear-gradient(#000e2e, #004f5a);
+}
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+{ 
+  h1{
+  font-size: 50px;
+  line-height: 70px;
+  
+}
+.meme-generator img{
+  width: 80%;
+  height: 80%;
+  
+}
+.h1{
+  font-size: small;
+  text-align: center;
+  color: #fff;
+}
+}
+/*gradient*/
+.meme-generator {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*gradient*/
+.Welcome{
+  
+  font-family:'Waiting for the Sunrise', cursive;
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
